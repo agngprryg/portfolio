@@ -4,6 +4,12 @@ import { useState } from "react";
 const Beranda = () => {
   const [secondary, setSecondary] = useState(false);
 
+  const handleClick = () => {
+    setSecondary(!secondary);
+    const audio = new Audio("/audio/1.mp3");
+    audio.play();
+  };
+
   return (
     <main className={secondary ? "dark" : ""}>
       <div className="bg-white dark:bg-green">
@@ -11,7 +17,7 @@ const Beranda = () => {
           <div className="fixed z-20 end-0 lg:top-20 flex items-center gap-5">
             <div>
               <button
-                onClick={() => setSecondary(!secondary)}
+                onClick={handleClick}
                 className="mt-10 relative bg-black dark:bg-white w-[130px] h-[35px] p-1 font-semibold rounded-md"
               >
                 <span
