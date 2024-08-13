@@ -5,7 +5,7 @@ const WebApp = ({ handleHideWebApp }) => {
   return (
     <Modal>
       <div className=" bg-white lg:w-[900px] max-h-96 my-3 overflow-auto flex flex-col gap-10">
-        <div className="rounded-lg shadow-xl border-b-4 p-1 lg:p-2">
+        <div className="rounded-lg shadow-2xl lg:p-2">
           <div className="mb-10">
             <div className="flex items-center gap-2">
               <h2 className="text-xl lg:text-2xl font-bold">Guciku</h2>
@@ -20,10 +20,12 @@ const WebApp = ({ handleHideWebApp }) => {
               secara online.
             </p>
             <div className="flex items-center gap-3">
-              <p className="px-3 py-1 rounded-md shadow-xl">MongoDB</p>
-              <p className="px-3 py-1 rounded-md shadow-xl">ExpressJs</p>
-              <p className="px-3 py-1 rounded-md shadow-xl">ReactJs</p>
-              <p className="px-3 py-1 rounded-md shadow-xl">NodeJs</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">MongoDB</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                ExpressJs
+              </p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">ReactJs</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">NodeJs</p>
             </div>
           </div>
           <div className="modal-content">
@@ -66,12 +68,12 @@ const WebApp = ({ handleHideWebApp }) => {
             </div>
           </div>
         </div>
-        <div className="rounded-lg shadow-xl border-b-4 p-1 lg:p-2">
+        <div className="rounded-lg shadow-2xl lg:p-2">
           <div className="mb-10">
             <div className="flex items-center gap-2">
               <h2 className="text-xl lg:text-2xl font-bold">E-Comerce</h2>
             </div>
-            <p className="my-5 max-w-xl">
+            <p className="my-5 max-w-xl text-sm">
               Web aplikasi e-commerce baju ini adalah platform belanja online
               yang menyediakan berbagai pilihan pakaian untuk segala kebutuhan
               dan gaya. Dengan katalog produk yang lengkap dan terkurasi,
@@ -79,9 +81,13 @@ const WebApp = ({ handleHideWebApp }) => {
               merek terkenal maupun lokal.
             </p>
             <div className="flex items-center gap-3">
-              <p className="px-3 py-1 rounded-md shadow-xl">Code Igniter 3</p>
-              <p className="px-3 py-1 rounded-md shadow-xl">Mysql</p>
-              <p className="px-3 py-1 rounded-md shadow-xl">Tailwindcss</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                Code Igniter 3
+              </p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">Mysql</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                Tailwindcss
+              </p>
             </div>
           </div>
           <div className="modal-content">

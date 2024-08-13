@@ -5,12 +5,12 @@ const LandingPages = ({ handleHideLandingPage }) => {
   return (
     <Modal>
       <div className=" bg-white lg:w-[900px] max-h-96 my-3 overflow-auto flex flex-col gap-10">
-        <div className="rounded-lg shadow-xl border-b-4 p-1 lg:p-2">
+        <div className="rounded-lg shadow-xl lg:p-2">
           <div className="mb-10">
             <div className="flex items-center gap-2">
               <h2 className="text-xl lg:text-2xl font-bold">Movie List</h2>
             </div>
-            <p className="my-5 max-w-xl">
+            <p className="my-5 max-w-xl text-sm">
               Web Movie List adalah platform online yang dirancang untuk
               membantu pengguna mengelola dan mengorganisasi daftar film favorit
               mereka dengan mudah. Melalui antarmuka yang intuitif, pengguna
@@ -18,10 +18,14 @@ const LandingPages = ({ handleHideLandingPage }) => {
               pribadi, dan memberikan peringkat pada setiap film.
             </p>
             <div className="flex items-center gap-3">
-              <p className="px-3 py-1 rounded-md shadow-xl">ReactJs</p>
-              <p className="px-3 py-1 rounded-md shadow-xl">Vite</p>
-              <p className="px-3 py-1 rounded-md shadow-xl">Redux</p>
-              <p className="px-3 py-1 rounded-md shadow-xl">Tailwindcss</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">ReactJs</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">Vite</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                Redux Toolkit
+              </p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                Tailwindcss
+              </p>
             </div>
           </div>
           <div className="modal-content">
