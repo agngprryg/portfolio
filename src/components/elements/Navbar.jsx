@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="fixed py-4 px-2 lg:px-20 text-black dark:text-white flex items-center gap-10 lg:gap-20">
+    <nav className="fixed py-4 px-2 lg:px-20 text-black dark:text-white flex items-center gap-5 lg:gap-20">
       <h1 className="font-apple mt-3.5 text-xl">hello</h1>
       <div className="flex gap-4">
         <Link
@@ -45,7 +45,7 @@ const Navbar = () => {
         <a href="">
           <Notepad weight="duotone" size={20} />
         </a>
-        <div className="ml-5 w-[35px] h-[35px] rounded-full dark:bg-white bg-tertiary">
+        <div className="hidden md:block lg:block ml-5 w-[35px] h-[35px] rounded-full dark:bg-white bg-tertiary">
           <img
             src="/profile/1.png"
             alt=""
