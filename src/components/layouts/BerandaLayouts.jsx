@@ -29,23 +29,28 @@ const BerandaLayouts = ({ children, secondary }) => {
 
   const handleButtonClick = () => {
     setButton([
-      <>
+      <main className="flex items-center gap-10">
         <button
-          className="hover:-mt-1 hover:text-tertiary dark:hover:opacity-50 dark:text-white transition-all ease-in-out"
           onClick={handleOpenWebApp}
+          className="mt-10 relative bg-black dark:bg-white w-[100px] h-[35px] lg:w-[100px] p-1  rounded-md"
         >
-          webApp
+          <span
+            className={`active:top-0 active:start-0 transition-all absolute flex justify-center items-center -start-1 -top-1 border w-[100px] h-[35px] lg:w-[100px] dark:bg-green bg-tertiary text-sm dark:text-white rounded-md `}
+          >
+            webApp
+          </span>
         </button>
         <button
-          className="hover:-mt-1 hover:text-tertiary dark:hover:opacity-50 dark:text-white transition-all ease-in-out"
           onClick={handleOpenLandingPage}
+          className="mt-10 relative bg-black dark:bg-white w-[100px] h-[35px] lg:w-[100px] p-1  rounded-md"
         >
-          LandingPage
+          <span
+            className={`active:top-0 active:start-0 transition-all absolute flex justify-center items-center -start-1 -top-1 border w-[100px] h-[35px] lg:w-[100px] dark:bg-green bg-tertiary text-sm dark:text-white rounded-md `}
+          >
+            Landing Page
+          </span>
         </button>
-        <button className="hover:-mt-1 hover:text-tertiary dark:hover:opacity-50 dark:text-white transition-all ease-in-out">
-          RevisiLagi
-        </button>
-      </>,
+      </main>,
     ]);
   };
 
@@ -61,7 +66,7 @@ const BerandaLayouts = ({ children, secondary }) => {
       <div className="w-full pt-20 px-4 lg:px-20">{children}</div>
       <div className="pt-5 px-4 lg:px-20 flex gap-2 items-center">
         <p className="text-xs text-black opacity-65 dark:text-white">V1.0</p>
-        <p className="py-1 px-3 text-xs text-white dark:bg-black bg-tertiary">
+        <p className="py-1 px-3 text-xs text-white dark:bg-white dark:text-black bg-tertiary">
           Beta
         </p>
       </div>
