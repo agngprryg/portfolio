@@ -20,9 +20,7 @@ const LandingPages = ({ handleHideLandingPage }) => {
             <div className="flex items-center gap-3">
               <p className="px-3 py-1 rounded-md shadow-xl text-xs">ReactJs</p>
               <p className="px-3 py-1 rounded-md shadow-xl text-xs">Vite</p>
-              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
-                Redux Toolkit
-              </p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">Redux</p>
               <p className="px-3 py-1 rounded-md shadow-xl text-xs">
                 Tailwindcss
               </p>
@@ -62,6 +60,49 @@ const LandingPages = ({ handleHideLandingPage }) => {
               />
               <img
                 src="/LandingPage/MovieList/7.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="rounded-lg shadow-xl lg:p-2">
+          <div className="mb-10">
+            <div className="flex items-center gap-2">
+              <h2 className="text-xl lg:text-2xl font-bold">Store-Redux</h2>
+            </div>
+            <p className="my-5 max-w-xl text-sm">
+              ini merupakan Project pembelajaran saya dalam mengelola state
+              dengan menggunakan Redux Toolkit yang bertema fashion store
+            </p>
+            <div className="flex items-center gap-3">
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">ReactJs</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">Vite</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">Redux</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                Tailwindcss
+              </p>
+            </div>
+          </div>
+          <div className="modal-content">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 ">
+              <img
+                src="/LandingPage/StoreRedux/1.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/LandingPage/StoreRedux/2.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/LandingPage/StoreRedux/3.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/LandingPage/StoreRedux/4.png"
                 alt=""
                 className="w-full h-auto shadow-xl rounded-xl"
               />
