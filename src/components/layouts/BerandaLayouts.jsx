@@ -77,11 +77,13 @@ const BerandaLayouts = ({ children, secondary }) => {
             <span className="dark:text-white text-tertiary">Developer.</span>
           </h1>
           <p className="max-w-[450px] mt-2 lg:mt-5 text-xs dark:text-white">
-            halo perkenalkan saya agung prayogo saya mahasiswa semester 4, di
-            perkuliahan saya cukup aktif di organisasi, saat ini saya menjabat
-            sebagai wakil ketua dewan perwakilan mahasiswa, dan saya sangat
-            tertarik di bidang web development khusus nya dalam ranah frontend
-            developer
+            Saya adalah seorang fresh graduate yang memiliki minat besar di
+            bidang web development. Saya memiliki dasar pengetahuan dalam
+            pengembangan frontend maupun backend, dan terbiasa menggunakan HTML,
+            CSS, JavaScript, serta framework seperti Laravel dan React. Saya
+            antusias untuk terus belajar, beradaptasi dengan teknologi baru, dan
+            siap berkontribusi dalam pengembangan aplikasi web yang fungsional
+            dan user-friendly.
           </p>
           <button
             onClick={handleButtonClick}
