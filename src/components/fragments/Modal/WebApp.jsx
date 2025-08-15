@@ -31,37 +31,27 @@ const WebApp = ({ handleHideWebApp }) => {
           <div className="modal-content">
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 ">
               <img
-                src="/webApp/guciku/1.png"
+                src="/webApp/guciku-v1/1.png"
                 alt=""
                 className="w-full h-auto shadow-xl rounded-xl"
               />
               <img
-                src="/webApp/guciku/2.png"
+                src="/webApp/guciku-v1/2.png"
                 alt=""
                 className="w-full h-auto shadow-xl rounded-xl"
               />
               <img
-                src="/webApp/guciku/3.png"
+                src="/webApp/guciku-v1/3.png"
                 alt=""
                 className="w-full h-auto shadow-xl rounded-xl"
               />
               <img
-                src="/webApp/guciku/4.png"
+                src="/webApp/guciku-v1/4.png"
                 alt=""
                 className="w-full h-auto shadow-xl rounded-xl"
               />
               <img
-                src="/webApp/guciku/5.png"
-                alt=""
-                className="w-full h-auto shadow-xl rounded-xl"
-              />
-              <img
-                src="/webApp/guciku/6.png"
-                alt=""
-                className="w-full h-auto shadow-xl rounded-xl"
-              />
-              <img
-                src="/webApp/guciku/7.png"
+                src="/webApp/guciku-v1/5.png"
                 alt=""
                 className="w-full h-auto shadow-xl rounded-xl"
               />
@@ -124,6 +114,84 @@ const WebApp = ({ handleHideWebApp }) => {
               />
               <img
                 src="/webApp/e-comerce/7.jpeg"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="rounded-lg shadow-2xl lg:p-2">
+          <div className="mb-10">
+            <div className="flex items-center gap-2">
+              <h2 className="text-xl lg:text-2xl font-bold">
+                Souvenir Murah Tegal
+              </h2>
+            </div>
+            <p className="my-5 max-w-xl text-sm">
+              Aplikasi Pemesanan Souvenir Murah Tegal berbasis web adalah
+              platform online yang memudahkan pelanggan di wilayah Tegal (dan
+              sekitarnya) untuk mencari, memilih, dan memesan berbagai jenis
+              souvenir dengan harga terjangkau.
+            </p>
+            <div className="flex items-center gap-3">
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                Code Igniter 3
+              </p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">Mysql</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                Tailwindcss
+              </p>
+            </div>
+          </div>
+          <div className="modal-content">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 ">
+              <img
+                src="/webApp/souvenir/1.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/souvenir/2.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/souvenir/3.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/souvenir/4.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/souvenir/5.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/souvenir/6.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/souvenir/7.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/souvenir/8.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/souvenir/9.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/souvenir/10.png"
                 alt=""
                 className="w-full h-auto shadow-xl rounded-xl"
               />
