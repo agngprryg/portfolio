@@ -67,7 +67,7 @@ const BerandaLayouts = ({ children, secondary }) => {
       <div className="pt-5 px-4 lg:px-20 flex gap-2 items-center">
         <p className="text-xs text-black opacity-65 dark:text-white">V1.0</p>
         <p className="py-1 px-3 text-xs text-white dark:bg-white dark:text-black bg-tertiary">
-          Beta
+          Hello
         </p>
       </div>
       <div className="pt-10 pb-10 px-4 lg:px-20 transition-all ease-in-out">
@@ -77,13 +77,13 @@ const BerandaLayouts = ({ children, secondary }) => {
             <span className="dark:text-white text-tertiary">Developer.</span>
           </h1>
           <p className="max-w-[450px] mt-2 lg:mt-5 text-xs dark:text-white">
-            Saya adalah seorang fresh graduate yang memiliki minat besar di
-            bidang web development. Saya memiliki dasar pengetahuan dalam
-            pengembangan frontend maupun backend, dan terbiasa menggunakan HTML,
-            CSS, JavaScript, serta framework seperti Laravel dan React. Saya
-            antusias untuk terus belajar, beradaptasi dengan teknologi baru, dan
-            siap berkontribusi dalam pengembangan aplikasi web yang fungsional
-            dan user-friendly.
+            Frontend Developer with a strong interest in building SaaS
+            platforms. Specialized in React.js, Next.js, and Redux for state
+            management. Focused on performance optimization, user experience,
+            and delivering business impact throughout the development process.
+            Experienced as a freelance developer in building production- grade
+            applications and based on client needs to improve access to
+            destination-related information , serving 30+ active users.
           </p>
           <button
             onClick={handleButtonClick}
@@ -92,7 +92,7 @@ const BerandaLayouts = ({ children, secondary }) => {
             <span
               className={`active:top-0 active:start-0 transition-all absolute flex justify-center items-center -start-1 -top-1 border w-[250px] h-[35px] lg:w-[300px] dark:bg-green bg-tertiary dark:text-white rounded-md font-semibold`}
             >
-              Click Here
+              Show Project Here
             </span>
           </button>
           <div className="my-20 flex gap-10">{button}</div>

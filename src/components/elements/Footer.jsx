@@ -10,9 +10,9 @@ const Footer = ({ secondary }) => {
 
   return (
     <footer className="w-full py-2 px-4 lg:px-20 dark:text-white text-black">
-      <div className="flex flex-wrap gap-20 items-center">
+      {/* <div className="flex flex-wrap gap-20 items-center">
         <div>
-          <p className=" text-xs mb-2">powered by:</p>
+          <p className=" text-xs mb-2">Support Partner :</p>
           <div className="w-[100px] px-1 ">
             <img
               src={!secondary ? dark : white}
@@ -31,9 +31,9 @@ const Footer = ({ secondary }) => {
           <p className="opacity-80 hover:opacity-100">Kebijakan</p>
           <p className="opacity-80 hover:opacity-100">Perusahaan</p>
         </div>
-        <img src="/logo/1.svg" alt="" className="w-[200px] -mt-5" />
-      </div>
-      <div className="mt-10 flex items-center">
+      </div> */}
+      <img src="/logo/1.svg" alt="" className="w-[200px] -mt-5" />
+      <div className="mt-5 flex items-center">
         <p className="mr-5 text-xs  opacity-65">@build by agngprryg</p>
       </div>
     </footer>

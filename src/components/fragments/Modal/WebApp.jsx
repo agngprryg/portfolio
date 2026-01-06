@@ -1,4 +1,3 @@
-import React from "react";
 import Modal from "../../elements/Modal";
 
 const WebApp = ({ handleHideWebApp }) => {
@@ -52,6 +51,11 @@ const WebApp = ({ handleHideWebApp }) => {
               />
               <img
                 src="/webApp/guciku-v1/5.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/guciku-v1/6.png"
                 alt=""
                 className="w-full h-auto shadow-xl rounded-xl"
               />
@@ -192,6 +196,244 @@ const WebApp = ({ handleHideWebApp }) => {
               />
               <img
                 src="/webApp/souvenir/10.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-lg shadow-2xl lg:p-2">
+          <div className="mb-10">
+            <div className="flex items-center gap-2">
+              <h2 className="text-xl lg:text-2xl font-bold">
+                Dukcapil Keliling
+              </h2>
+            </div>
+            <p className="my-5 max-w-xl text-sm">
+              Aplikasi Dukcapil keliling yang bertujuan untuk melihat lokasi
+              terkini dukcapil keliling dengan real time
+            </p>
+            <div className="flex items-center gap-3">
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                Code Igniter 3
+              </p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">Mysql</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                Tailwindcss
+              </p>
+            </div>
+          </div>
+          <div className="modal-content">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 ">
+              <img
+                src="/webApp/dukcapil-keliling/1.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/dukcapil-keliling/2.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/dukcapil-keliling/3.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/dukcapil-keliling/4.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/dukcapil-keliling/5.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/dukcapil-keliling/6.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/dukcapil-keliling/7.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/dukcapil-keliling/8.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/dukcapil-keliling/9.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-lg shadow-2xl lg:p-2">
+          <div className="mb-10">
+            <div className="flex items-center gap-2">
+              <h2 className="text-xl lg:text-2xl font-bold">HRIS</h2>
+            </div>
+            <p className="my-5 max-w-xl text-sm">
+              Aplikasi ini meliputi fitur absensi, gaji karyawan, dan
+              recruitment
+            </p>
+            <div className="flex items-center gap-3">
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                Code Igniter 3
+              </p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">Mysql</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                Tailwindcss
+              </p>
+            </div>
+          </div>
+          <div className="modal-content">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 ">
+              <img
+                src="/webApp/hris/1.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/hris/2.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/hris/3.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/hris/4.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/hris/5.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/hris/6.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/hris/7.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/hris/8.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/hris/9.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/hris/10.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/hris/11.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/hris/12.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/hris/13.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-lg shadow-2xl lg:p-2">
+          <div className="mb-10">
+            <div className="flex items-center gap-2">
+              <h2 className="text-xl lg:text-2xl font-bold">
+                Percetakan Ibu Putra Jaya
+              </h2>
+            </div>
+            <p className="my-5 max-w-xl text-sm">
+              Aplikasi pemesanan percetakan online berbasis web
+            </p>
+            <div className="flex items-center gap-3">
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                Code Igniter 3
+              </p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">Mysql</p>
+              <p className="px-3 py-1 rounded-md shadow-xl text-xs">
+                Tailwindcss
+              </p>
+            </div>
+          </div>
+          <div className="modal-content">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 ">
+              <img
+                src="/webApp/percetakan/1.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/percetakan/2.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/percetakan/3.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/percetakan/4.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/percetakan/5.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/percetakan/6.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/percetakan/7.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/percetakan/8.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/percetakan/9.png"
+                alt=""
+                className="w-full h-auto shadow-xl rounded-xl"
+              />
+              <img
+                src="/webApp/percetakan/10.png"
                 alt=""
                 className="w-full h-auto shadow-xl rounded-xl"
               />

@@ -2,7 +2,7 @@ import BerandaLayouts from "../components/layouts/BerandaLayouts";
 import { useState } from "react";
 
 const Beranda = () => {
-  const [secondary, setSecondary] = useState(false);
+  const [secondary, setSecondary] = useState(true);
 
   const handleClick = () => {
     setSecondary(!secondary);

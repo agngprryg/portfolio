@@ -3,16 +3,16 @@ import {
   InstagramLogo,
   LinkedinLogo,
   Notepad,
-  TextAlignJustify,
 } from "@phosphor-icons/react";
-import React from "react";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="fixed py-4 px-2 lg:px-20 text-black dark:text-white flex items-center gap-5 lg:gap-20">
       <h1 className="font-apple mt-3.5 text-xl">hello</h1>
-      <div className="flex gap-4">
+      <h1 className="text-[9px] text-black dark:text-white">
+        Last Update : 6 jan 2026
+      </h1>
+      {/* <div className="flex gap-4">
         <Link
           to="/"
           className="text-xs hover:-mt-1 hover:text-tertiary dark:hover:text-secondary transition-all ease-in-out"
@@ -31,7 +31,7 @@ const Navbar = () => {
         >
           Project
         </Link>
-      </div>
+      </div> */}
       <div className="flex items-center gap-2">
         <a href="https://github.com/agngprryg/">
           <GithubLogo weight="fill" size={20} />
